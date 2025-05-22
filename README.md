@@ -65,17 +65,8 @@ Este trabajo de investigación explora el uso de **Redes Neuronales Convoluciona
 ## 📂 Estructura del proyecto
 
 ```bash
-CNN_Ansiedad/
-├── dataset/
-│   ├── sujetos/
-│   ├── etiquetas.csv
-├── models/
-│   ├── cnn_model.h5
-├── notebooks/
-│   ├── entrenamiento_cnn.ipynb
-│   ├── evaluacion_modelo.ipynb
-├── utils/
-│   ├── preprocesamiento.py
-│   ├── visualizacion.py
-├── main.py
-└── README.md
+Anxiety_detection_CNN/
+├── README.md                        # Documentación del proyecto
+├── analisis_exploratorio.ipynb     # Análisis estadístico y visualización de datos
+├── desarrollo_modelos_comparacion.ipynb  # Implementación de modelos CNN y pruebas
+├── preprocesamiento_datos.py       # Limpieza, normalización y segmentación de señales
